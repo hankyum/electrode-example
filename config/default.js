@@ -1,5 +1,3 @@
-"use strict";
-
 const defaultListenPort = 3000;
 
 const portFromEnv = () => {
@@ -45,7 +43,7 @@ module.exports = {
         "cors": true
       },
       "state": {
-        "ignoreErrors":true
+        "ignoreErrors": true
       }
     }
   }

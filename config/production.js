@@ -6,6 +6,7 @@
 // When running in a real production environment where your static files are most likely served
 // by a dedicated CDN server, you might want to turn these plugins off.
 //
+const defaultPort = 3000;
 
 const serveStaticFiles = () => {
   return process.env.STATIC_FILES_OFF !== "true";
@@ -19,5 +20,8 @@ module.exports = {
     "electrodeStaticPaths": {
       "enable": serveStaticFiles()
     }
+  },
+  "connections": {
+    "port": process.env.PORT || defaultPort
   }
 };

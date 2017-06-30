@@ -24,8 +24,8 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "6.10.2",
-    "npm": "3.10.10"
+    "node": "4.2.x",
+    "npm": "3.7.3"
   },
   "scripts": {
     "prestart": "clap build",

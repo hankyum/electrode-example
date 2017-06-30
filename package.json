@@ -14,7 +14,7 @@
     "client",
     "test"
   ],
-  "main": "lib/server/index.js",
+  "main": "server/index.js",
   "keywords": [
     "electrode demo "
   ],

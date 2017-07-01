@@ -11,5 +11,6 @@ const startServer = config => require("./express-server")(config);
 
 support.load().then(() => {
   const config = electrodeConfippet.config;
+  console.log(JSON.stringify(config, null, 2));
   return startServer(config);
 });

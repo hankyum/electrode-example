@@ -1,1 +1,1 @@
-worker: NODE_ENV=production  npm start
+worker: NODE_ENV=production  PORT=$PORT node ./lib/server
